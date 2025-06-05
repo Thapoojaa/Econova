@@ -16,7 +16,7 @@ mongoose.connect('mongodb+srv://thapoojaathavanesan:YX4WAT9IgCC5U4eC@cluster0.av
 
 app.use('/api/auth', authRoutes);
 
-const PORT = 5000;
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`🚀 Server running at http://localhost:${PORT}`);
 });
